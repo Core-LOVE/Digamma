@@ -1,0 +1,39 @@
+{
+  "required": true,
+  "package": "katebulka.digamma.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": null,
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "ConcoctionMixin",
+    "CuttingBoardMixin",
+    "WeepingAngelMixin",
+
+    "accessor.AbstractWeepingAngelAccessor",
+
+    "AbstractGravestoneBlockMixin",
+    "MonsterEggBlockMixin",
+    "VoidSoulKnightEntityMixin",
+    "CrateModuleMixin",
+    "BlockBehaviourMixin",
+    "SpawnBiolithIntegrationMixin",
+
+    "CNMNeoForgeClientEventsMixin"
+  ],
+  "client": [
+    "client.CuttingBoardRendererMixin",
+    "client.EnhancedAdvancementTabMixin",
+    "client.EnhancedAdvancementWidgetMixin",
+    "client.AngelItemLayerMixin",
+    "client.WeepingAngelRendererMixin",
+
+    "client.GuiMixin",
+    "client.LevelVersionMixin",
+    "client.LevelSummaryMixin",
+    "client.InventoryShieldSlotMixin",
+    "client.EMIffectPluginMixin"
+  ],
+  "server": []
+}

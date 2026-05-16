@@ -1,0 +1,13 @@
+{
+  "itemGroup.emigeared": "Example Mod Tab",
+  "block.emigeared.example_block": "Example Block",
+  "item.emigeared.example_item": "Example Item",
+
+  "emigeared.configuration.title": "EMIGeared Configs",
+  "emigeared.configuration.section.emigeared.common.toml": "EMIGeared Configs",
+  "emigeared.configuration.section.emigeared.common.toml.title": "EMIGeared Configs",
+  "emigeared.configuration.items": "Item List",
+  "emigeared.configuration.logDirtBlock": "Log Dirt Block",
+  "emigeared.configuration.magicNumberIntroduction": "Magic Number Text",
+  "emigeared.configuration.magicNumber": "Magic Number"
+}

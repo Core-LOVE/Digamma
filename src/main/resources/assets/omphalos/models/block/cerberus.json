@@ -1,0 +1,21 @@
+{
+    "parent": "block/block",
+    "textures": {
+        "all": "omphalos:block/cerberus",
+        "face": "omphalos:block/cerberus_face",
+        "particle": "omphalos:block/cerberus"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#all", "cullface": "down" },
+                "up":    { "texture": "#all", "cullface": "up" },
+                "north": { "texture": "#face", "cullface": "north" },
+                "south": { "texture": "#all", "cullface": "south" },
+                "west":  { "texture": "#face", "cullface": "west" },
+                "east":  { "texture": "#face", "cullface": "east" }
+            }
+        }
+    ]
+}

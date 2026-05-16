@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fire_side",
+  "textures": {
+    "fire": "omphalos:block/brimstone_fire_0"
+  }
+}
