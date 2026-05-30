@@ -13,6 +13,7 @@
 
     "accessor.AbstractWeepingAngelAccessor",
 
+    "TallCandleMixin",
     "AbstractGravestoneBlockMixin",
     "MonsterEggBlockMixin",
     "VoidSoulKnightEntityMixin",
@@ -20,12 +21,14 @@
     "BlockBehaviourMixin",
     "SpawnBiolithIntegrationMixin",
 
-    "CNMNeoForgeClientEventsMixin"
+    "EffectHandlerMixin",
+
+    "FirebrandFix"
   ],
   "client": [
+    "client.AmbientEnvironmentCommonMixin",
+
     "client.CuttingBoardRendererMixin",
-    "client.EnhancedAdvancementTabMixin",
-    "client.EnhancedAdvancementWidgetMixin",
     "client.AngelItemLayerMixin",
     "client.WeepingAngelRendererMixin",
 
@@ -33,7 +36,13 @@
     "client.LevelVersionMixin",
     "client.LevelSummaryMixin",
     "client.InventoryShieldSlotMixin",
-    "client.EMIffectPluginMixin"
+    "client.EMIffectPluginMixin",
+
+    "client.IWClientDynamicResourcesHandlerMixin",
+
+    "client.SmoothLightPipelineMixin",
+
+    "client.ScreenMixin"
   ],
   "server": []
 }

@@ -74,7 +74,7 @@ public class DigammaMod {
         modEventBus.addListener(this::commonSetup);
 
         ModFires.initialize();
-//        ModBiomes.initialize();
+        ModBiomes.initialize();
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         BLOCKS.register(modEventBus);

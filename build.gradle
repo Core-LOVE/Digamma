@@ -55,6 +55,11 @@ repositories {
         }
     }
 
+    maven {
+        name = "Sisby Maven"
+        url = "https://repo.sleeping.town/"
+    }
+
     exclusiveContent {
         forRepository {
             maven {
@@ -192,8 +197,10 @@ dependencies {
     compileOnly "maven.modrinth:bettermineteam:0.2.5"
     runtimeOnly "maven.modrinth:bettermineteam:0.2.5"
 
-    compileOnly "maven.modrinth:clutter-no-more:1.1.9+1.21.1-neoforge"
-    runtimeOnly "maven.modrinth:clutter-no-more:1.1.9+1.21.1-neoforge"
+    compileOnly("folk.sisby:kaleido-config:0.3.3+1.3.2")
+
+    compileOnly "maven.modrinth:clutter-no-more:2.0.0+1.21.1-neoforge"
+    runtimeOnly "maven.modrinth:clutter-no-more:2.0.0+1.21.1-neoforge"
 
     compileOnly("maven.modrinth:moonlight:1.21-2.29.33-neoforge")
     runtimeOnly("maven.modrinth:moonlight:1.21-2.29.33-neoforge")
@@ -201,9 +208,34 @@ dependencies {
     compileOnly("maven.modrinth:supplementaries:1.21-3.5.34-neoforge")
     runtimeOnly("maven.modrinth:supplementaries:1.21-3.5.34-neoforge")
 
-    compileOnly("maven.modrinth:buildsnbarrens:11.0.b")
+    compileOnly("maven.modrinth:gladius:0.2.1")
+    runtimeOnly("maven.modrinth:gladius:0.2.1")
+
+    compileOnly("maven.modrinth:is-typing:v1.0.0-mc1.21.1-neoforge")
+
+    compileOnly("maven.modrinth:better-f1-reborn:PwZNo317")
+
+    compileOnly("maven.modrinth:hover-items:1.21.1")
+    compileOnly("maven.modrinth:tooltips-reforged:J25hE1s0")
+    compileOnly("maven.modrinth:jupiter:2.3.7-1.21.1-neoforge")
+
+    implementation "maven.modrinth:caverns-and-chasms:3.0.0"
+
+    compileOnly("maven.modrinth:showkeybinds:1.21.1-4.3.1-neoforge")
+    compileOnly("maven.modrinth:ambient-environment:N7jam3SN")
 
     runtimeOnly "maven.modrinth:modernfix:5.27.7+mc1.21.1"
+
+    runtimeOnly("maven.modrinth:supplementaries:1.21-3.5.34-neoforge")
+
+    compileOnly("maven.modrinth:buildsnbarrens:11.0.b")
+
+    compileOnly("maven.modrinth:friendlist-p2p-play-backport:WUoTXxJW")
+
+    runtimeOnly "maven.modrinth:modernfix:5.27.7+mc1.21.1"
+
+    compileOnly("maven.modrinth:sodium:mc1.21.1-0.6.13-neoforge")
+    runtimeOnly("maven.modrinth:sodium:mc1.21.1-0.6.13-neoforge")
 
 //    runtimeOnly("maven.modrinth:buildsnbarrens:11.0.b")
 
@@ -236,10 +268,21 @@ dependencies {
     compileOnly "maven.modrinth:spawn-mod:4.0.3"
     compileOnly "maven.modrinth:emiffect:S6Q6duUj"
 
+    compileOnly "maven.modrinth:artistry-feliscape:1.8"
+    runtimeOnly "maven.modrinth:artistry-feliscape:1.8"
+
+    compileOnly "maven.modrinth:immersive-weather-renewed:V1.0.4-NeoForge"
+    runtimeOnly "maven.modrinth:immersive-weather-renewed:V1.0.4-NeoForge"
+
+    compileOnly "maven.modrinth:melancholic_hunger:vKSreUAW"
+    runtimeOnly "maven.modrinth:melancholic_hunger:vKSreUAW"
+
     implementation "maven.modrinth:cobweb:c10AZba0"
     implementation "maven.modrinth:prometheus-api:sGtURzAz"
 
     implementation "com.terraformersmc:biolith-neoforge:${biolith_version}"
+
+    compileOnly files('libs/dei-forked-v1.1.1-neoforge-1.21.1.jar')
 //    implementation "me.saharnooby:qoi-java:1.2.1"
 //    jarJar(implementation('me.saharnooby:qoi-java:1.2.1'))
 //    implementation("com.github.bawnorton.mixinsquared:mixinsquared-neoforge:${project.mixinsquared_version}")

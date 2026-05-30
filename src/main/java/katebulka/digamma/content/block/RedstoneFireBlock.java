@@ -45,10 +45,10 @@ public class RedstoneFireBlock extends CustomFireBlock {
         return this.canSurvive(level.getBlockState(below)) && level.getBlockState(below).isFaceSturdy(level, below, Direction.UP);
     }
 
-    @Override
-    public boolean canSurvive(BlockState state) {
-        return true;
-    }
+//    @Override
+//    public boolean canSurvive(BlockState state) {
+//        return true;
+//    }
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {

@@ -96,12 +96,12 @@ public class ModFires {
                 Fire.Component.LANTERN_BLOCK, Fire.Component.LANTERN_ITEM
         );
 
-        FireRegistrar.registerDefaultFireComponents(
-                registerRedstoneFire("redstone", MapColor.COLOR_RED, (builder) -> {
-                    builder.setDamage(1.5F);
-                }),
-
-                Fire.Component.CAMPFIRE_BLOCK, Fire.Component.CAMPFIRE_ITEM
-        );
+//        FireRegistrar.registerDefaultFireComponents(
+//                registerRedstoneFire("redstone", MapColor.COLOR_RED, (builder) -> {
+//                    builder.setDamage(1.5F);
+//                }),
+//
+//                Fire.Component.CAMPFIRE_BLOCK, Fire.Component.CAMPFIRE_ITEM
+//        );
     }
 }
